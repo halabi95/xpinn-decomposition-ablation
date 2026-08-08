@@ -1,0 +1,6 @@
+results/
+*.o
+*.pth
+__pycache__/
+*.pyc
+*_w0*.py
