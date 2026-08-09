@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or the reference solutions it contains, please cite both the archived software and the accompanying paper."
+title: "Near-body zoning and interface overlap in extended physics-informed neural networks for sparse-data flow reconstruction"
+abstract: >-
+  Code and CFD reference solutions for a controlled ablation of subdomain zoning
+  and interface overlap in extended physics-informed neural networks (XPINNs),
+  applied to the reconstruction of steady flow fields from sparse measurements.
+  Includes the four decomposition configurations for each of four benchmarks
+  (circular cylinder at Re = 40, NACA 0012 at Re = 1,000 and Re = 10,000, and the
+  Turek-Hron FSI1 configuration), the reference solutions generated with FEniCS,
+  SU2 and turtleFSI, post-processing and baseline scripts, and the aggregated
+  results underlying every value reported in the accompanying paper.
+type: software
+authors:
+  - family-names: "El Halabi"
+    given-names: "Hamze"
+    email: "hamzahalhalabi@gmail.com"
+    orcid: "https://orcid.org/0009-0005-3130-946X"
+    affiliation: "Hokkaido University"
+  - family-names: "Takahashi"
+    given-names: "Yusuke"
+    email: "ytakahashi@eng.hokudai.ac.jp"
+    orcid: "https://orcid.org/0000-0002-6272-5758"
+    affiliation: "Hokkaido University"
+version: "1.0.0"
+date-released: "2026-08-09"
+doi: "10.5281/zenodo.21858723"
+repository-code: "https://github.com/halabi95/xpinn-decomposition-ablation"
+license: MIT
+keywords:
+  - physics-informed neural networks
+  - domain decomposition
+  - sparse-data reconstruction
+  - computational fluid dynamics
+  - sensor placement
