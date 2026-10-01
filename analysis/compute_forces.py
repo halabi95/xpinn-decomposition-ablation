@@ -84,7 +84,7 @@ for key,(refp,surf,runs) in CASES.items():
     print(f"  VALIDATION: {'PASS' if ok else 'FAIL - do not use these numbers'}")
     store[key]=dict(param=param, cp_ref=cp0, preds={})
     if key=='cylinder':
-        lp='/sqfs2/cmc/1/home/z6b512/sphinx_project/New_Files/step1_cfd/xpinn_nonoverlap_cylinder_random_results.npz'
+        lp = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'xpinn_nonoverlap_cylinder_random_results.npz')
         if os.path.exists(lp):
             L=np.load(lp,allow_pickle=True)
             if all(k in L.files for k in ('best_U','best_V','best_P')):

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or the reference solutions it contains, please cite both the archived software and the accompanying paper."
-title: Non-overlapping near-body zoning is the most reliable of four decompositions for sparse-data flow reconstruction with extended physics-informed neural networks"
+title: "Non-overlapping near-body zoning is the most reliable of four decompositions for sparse-data flow reconstruction with extended physics-informed neural networks"
 abstract: >-
   Code and CFD reference solutions for a controlled ablation of subdomain zoning
   and interface overlap in extended physics-informed neural networks (XPINNs),

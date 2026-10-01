@@ -64,7 +64,7 @@ def build(key, cfg, var):
 
     # legacy cylinder nonoverlap-quadrant (May campaign, same settings: 8x128, 100k, seeds 42/123/456)
     if key == 'cylinder':
-        lp = '/sqfs2/cmc/1/home/z6b512/sphinx_project/New_Files/step1_cfd/xpinn_nonoverlap_cylinder_random_results.npz'
+        lp = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'xpinn_nonoverlap_cylinder_random_results.npz')
         if os.path.exists(lp):
             L = np.load(lp, allow_pickle=True)
             k2 = {'u':'best_U','v':'best_V','p':'best_P'}[var]

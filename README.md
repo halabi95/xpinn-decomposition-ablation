@@ -61,6 +61,11 @@ Notes on what the scripts do:
   The pressure error is computed on the pressure itself, without removing its
   domain mean, as in the paper.
 
+The analysis scripts are run from the repository root and expect the per-run
+output directories (`results/`, `cases/<case>/results/`) produced by the case
+scripts. `analysis/regional_analysis.py` uses the repository root by default;
+set the environment variable `SPHINX_ROOT` to point it elsewhere.
+
 Requires PyTorch, NumPy, SciPy and Matplotlib. Production runs used single
 NVIDIA A100 (40 GB) GPUs; a Quadro RTX 6000 was used only for short tests.
 

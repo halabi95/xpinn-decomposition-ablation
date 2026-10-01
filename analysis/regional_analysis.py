@@ -1,6 +1,6 @@
 import numpy as np, os, glob
 
-ROOT = "/sqfs2/cmc/1/home/z6b512/sphinx_project/GITHUB_CODE/SPHINX-main"
+ROOT = os.environ.get("SPHINX_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 REF = {
  'cylinder':  ROOT+"/cases/cylinder_re40/cylinder_re40_reference.npz",
