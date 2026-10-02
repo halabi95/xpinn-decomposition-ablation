@@ -1,6 +1,6 @@
-cff-version: 1.2.0
+cff-version: 1.1.0
 message: "If you use this software or the reference solutions it contains, please cite both the archived software and the accompanying paper."
-title: "Near-body zoning and interface overlap in extended physics-informed neural networks for sparse-data flow reconstruction"
+title: Non-overlapping near-body zoning is the most reliable of four decompositions for sparse-data flow reconstruction with extended physics-informed neural networks"
 abstract: >-
   Code and CFD reference solutions for a controlled ablation of subdomain zoning
   and interface overlap in extended physics-informed neural networks (XPINNs),
@@ -23,7 +23,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-6272-5758"
     affiliation: "Hokkaido University"
 version: "1.0.0"
-date-released: "2026-08-09"
+date-released: "2026-10-02"
 doi: "10.5281/zenodo.21858723"
 repository-code: "https://github.com/halabi95/xpinn-decomposition-ablation"
 license: MIT
